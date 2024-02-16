@@ -9989,6 +9989,20 @@ body:not(.tt-boxed) .tt-footer-inner,
 	}
 }
 
+
+/* Extra Added
+============================ */
+.bigger-image {
+    width: 150%; /* Adjust the width as needed */
+    max-width: none; /* Remove the maximum width constraint */
+    height: auto; /* Maintain the original aspect ratio */
+}
+
+.pi-item-category {
+    font-size: 12px; /* Adjust the font size as needed */
+}
+
+
 /* For smaller screens only 
 ============================ */
 @media (max-width: 1024px) {
