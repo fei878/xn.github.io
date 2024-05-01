@@ -9432,8 +9432,14 @@ body.tt-sliding-sidebar-open .tt-sliding-sidebar-close {
 
 /* Blog interactive item meta */
 .bi-item-meta {
-	font-size: 12px;
-	color: #999;
+    font-size: 15px;
+}
+
+/* For mobile view */
+@media (max-width: 767px) {
+    .bi-item-meta {
+        font-size: 12px;
+    }
 }
 .bi-item-meta a {
 	position: relative;
