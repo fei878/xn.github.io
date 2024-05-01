@@ -46,6 +46,13 @@
 // Miscellaneous 
 //
 
+// This code snippet assumes you have some logic to determine when your content is fully loaded.
+// You can replace this with your actual loading logic.
+
+window.addEventListener('load', function() {
+    // Hide the loader once all content is loaded
+    document.getElementById('loader-wrapper').style.display = 'none';
+});
 
 
 
